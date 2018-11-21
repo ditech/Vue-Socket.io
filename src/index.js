@@ -27,7 +27,7 @@ export default class VueSocketIO {
      */
     install(Vue){
 
-        Vue.prototype.$socket = this.io;
+        Vue.prototype.$Socket = this.io;
         Vue.prototype.$vueSocketIo = this;
         Vue.mixin(Mixin);
 

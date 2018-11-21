@@ -72,7 +72,7 @@ new Vue({
     methods: {
         clickButton: function (data) {
             // $socket is socket.io-client instance
-            this.$socket.emit('emit_method', data)
+            this.$Socket.emit('emit_method', data)
         }
     }
 })
